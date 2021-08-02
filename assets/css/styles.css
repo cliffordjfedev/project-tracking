@@ -1,0 +1,164 @@
+body {
+  font-family: 'Barlow', sans-serif; }
+
+.container {
+  max-width: 1440px;
+  padding-left: 6rem;
+  position: relative; }
+  .container .gray-bg {
+    background-color: #eef3f6;
+    border-bottom-left-radius: 40px;
+    position: absolute;
+    top: -5px;
+    right: 0px;
+    width: 50%;
+    height: 53%;
+    z-index: -1; }
+
+header nav {
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Barlow Condensed', sans-serif; }
+  header nav .lg-device-show > ul {
+    list-style: none;
+    position: relative;
+    display: flex;
+    justify-content: center; }
+    header nav .lg-device-show > ul li {
+      text-transform: uppercase;
+      margin-right: 2rem; }
+      header nav .lg-device-show > ul li:last-child {
+        opacity: .5;
+        margin-left: 2.5rem; }
+      header nav .lg-device-show > ul li a {
+        color: #242942 !important;
+        font-weight: 700;
+        text-decoration: none;
+        padding: 0px .3rem;
+        letter-spacing: 1px; }
+        header nav .lg-device-show > ul li a:hover {
+          text-decoration: underline; }
+  header nav button.btn {
+    padding: 0; }
+    header nav button.btn:focus {
+      box-shadow: none; }
+
+main .text-section h6 :last-child {
+  font-size: 10px;
+  letter-spacing: 4px;
+  font-weight: lighter;
+  color: #a0a1ac; }
+main .text-section h6 .badge {
+  border-radius: 2rem;
+  font-size: 8px !important; }
+main .text-section h1 {
+  font-family: 'Barlow Condensed', sans-serif;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1; }
+main .text-section p {
+  color: #a0a1ac;
+  font-size: 13px; }
+main .text-section .btn-orange {
+  background-color: #ff5c5c;
+  border-color: #ff5c5c;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase; }
+  main .text-section .btn-orange:focus {
+    border-color: #ff5c5c;
+    box-shadow: 0 0 0 0.25rem #ff5c5c; }
+main .text-section .preview {
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #a0a1ac;
+  letter-spacing: 3px; }
+  main .text-section .preview:focus {
+    box-shadow: none; }
+main .img-container {
+  overflow: hidden; }
+  main .img-container img {
+    width: 130% !important;
+    left: 8%; }
+
+@media screen and (max-width: 767px) {
+  header {
+    margin-left: 3%;
+    margin-right: 1%; }
+
+  .container {
+    padding-left: 2rem; }
+    .container .gray-bg {
+      width: 50%;
+      height: 70%;
+      z-index: -1; }
+
+  main .img-container {
+    padding-left: 0px;
+    margin-bottom: 5rem; }
+    main .img-container img {
+      left: 0;
+      width: 143% !important; }
+  main .text-section {
+    margin-left: 3%; }
+    main .text-section h1 {
+      font-size: 2.5rem; }
+    main .text-section p {
+      font-size: 1rem; } }
+@media (max-width: 375px) {
+  .container .gray-bg {
+    width: 50%;
+    height: 52% !important;
+    border-bottom-left-radius: 40px; } }
+@media screen and (max-width: 991px) {
+  header nav {
+    position: relative; }
+    header nav > .sm-device-show {
+      display: none;
+      position: absolute;
+      top: 3.5rem;
+      z-index: 100; }
+      header nav > .sm-device-show ul {
+        text-align: center;
+        list-style: none; }
+        header nav > .sm-device-show ul li {
+          text-transform: uppercase; }
+          header nav > .sm-device-show ul li:last-child {
+            opacity: .5; }
+          header nav > .sm-device-show ul li a {
+            color: #242942 !important;
+            display: block;
+            font-size: 1.1rem;
+            font-weight: 700;
+            padding-top: .50rem;
+            padding-bottom: .50rem;
+            text-decoration: none;
+            letter-spacing: 1px; }
+            header nav > .sm-device-show ul li a:hover {
+              text-decoration: none; } }
+@media (min-width: 768px) {
+  main .text-section h1 {
+    font-size: 2rem; }
+  main .text-section p {
+    color: #a0a1ac;
+    font-size: 13px; }
+  main .text-section .btn-orange {
+    font-size: 9px; }
+  main .text-section .preview {
+    font-size: 9px; }
+
+  .sm-device-show {
+    display: none; } }
+@media (min-width: 992px) {
+  main .text-section h1 {
+    font-size: 3rem; } }
+@media (min-width: 1200px) {
+  main .text-section h1 {
+    font-size: 3.9rem; }
+  main .text-section p {
+    color: #a0a1ac;
+    font-size: 13px; } }
+
+/*# sourceMappingURL=styles.css.map */
